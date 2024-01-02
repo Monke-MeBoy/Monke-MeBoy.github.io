@@ -1,0 +1,26 @@
+<html>
+
+  <script>
+        try {
+            if (window.self !== window.top) {
+                throw new Error('This page is in an iframe.');
+            }
+
+            document.cookie = 'X-Frame-Options=DENY; path=/';
+        } catch (error) {
+            // If an error occurs, the page may be in an iframe or the browser may not support this method.
+            // You can handle this case based on your requirements.
+            console.error(error.message);
+        }
+    </script>
+  <title>strongdog games og</title>
+  <p>
+    This is strongdog games orriginal
+  </p>
+  <a href="games/Appel.html">Appel</a>
+  <a href="games/Mario.html">Mario</a>
+  <a href="games/MotoX3m2.html">MotoX 3m2</a>
+  <a href="games/RetroBowl.html">Retro Bowl</a>
+  <a href="games/Terraria.html">Tarraria</a>
+  
+</html>
